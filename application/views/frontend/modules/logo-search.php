@@ -4,7 +4,7 @@
       <a href="<?php echo base_url() ?>"><img style="width: 100px" src="<?php echo base_url() ?>public/images/logo-png.svg" alt="Logo Shop"></a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 search">
-      <div class="contact-row">
+      <div class="contact-row" style="  opacity: 0;">
         <div class="phone inline">
           <i style="color: #934D28;" class="icon fa fa-phone"></i> 0964819546
         </div>

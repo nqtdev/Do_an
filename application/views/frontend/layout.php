@@ -12,7 +12,7 @@
             if(isset($title))
                 echo $title;
             else
-                echo "ShopGiuongDa";
+                echo "DecorViet";
         ?>
     </title>
     <link rel="icon" type="image/x-icon" href="public/images/logo-png.svg">

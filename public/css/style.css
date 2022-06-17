@@ -571,6 +571,7 @@
 
 .contact-row {
   color: #9b9b9b;
+  opacity: 0;
 }
 
 .contact-row .phone {
@@ -1672,7 +1673,11 @@ a {
   display: inline-block;
   margin-left: 5px;
 }
-
+#footer .social li:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+  background: #934d28;
+}
 #footer .social a {
   display: block;
   width: 35px;

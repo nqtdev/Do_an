@@ -1,7 +1,7 @@
 <section class="logo-search">
   <div class="container">
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 logo">
-      <a href="<?php echo base_url() ?>"><img style="width: 100px" src="<?php echo base_url() ?>public/images/logo-png.png" alt="Logo Shop"></a>
+      <a href="<?php echo base_url() ?>"><img style="width: 100px" src="<?php echo base_url() ?>public/images/logo-png.svg" alt="Logo Shop"></a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 search">
       <div class="contact-row">
@@ -9,7 +9,7 @@
           <i style="color: #934D28;" class="icon fa fa-phone"></i> 0964819546
         </div>
         <div class="contact inline">
-          <i style="color: #934D28;" class="icon fa fa-envelope"></i> decor.vn
+          <i style="color: #934D28;" class="icon fa fa-envelope"></i> contact.decorviet.vn
         </div>
       </div>
       <form action="search" method="get" role="form">
@@ -26,7 +26,7 @@
        <div class="cart_header" style="margin-top: 14px;">
         <a href="gio-hang" title="Giỏ hàng">
          <span class="cart_header_icon">
-          <img src="<?php echo base_url() ?>public/images/cart1.png" alt="Cart">
+          <img src="<?php echo base_url() ?>public/images/cart.svg" alt="Cart">
         </span>
         <span class="box_text">
           <strong class="cart_header_count">Giỏ hàng <span>(<?php  
@@ -80,7 +80,7 @@
    <div class="user_login">
      <a href="thong-tin-khach-hang" title="Tài khoản">
       <div class="user_login_icon">
-       <img src="<?php echo base_url() ?>public/images/user.png" alt="Cart">
+       <img src="<?php echo base_url() ?>public/images/user.svg" alt="Cart">
      </div>
      <div class="box_text">
        <strong>Tài khoản</strong>

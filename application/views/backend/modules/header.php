@@ -56,7 +56,7 @@ $image='';
 if($user['img']){
     $image=$user['img'];
 }else{
-    $image='user.png';
+    $image='user.svg';
 }
 ?>
 <li class="dropdown user user-menu" style="height: 52px; padding: 0px">

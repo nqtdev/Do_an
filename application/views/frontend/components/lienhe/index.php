@@ -64,7 +64,7 @@
 				</li>
 				<li class="clearfix">
 					<i class="fa fa-envelope fa-1x " style="color:#000; padding: 20px; "></i>
-					<span style="color: black"><a href="#">decor.vn</a></span>
+					<span style="color: black"><a href="#">contact.decorviet.vn</a></span>
 				</li>
 			</ul>
 		</div>
@@ -73,9 +73,9 @@
 	<div class="col-md-12 col-lg-12 col-xs-12 col-12">
 
 		<div style="margin-top: 15px;">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.0877564889643!2d105.86416691476259!3d20.989119086019862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad48e597a1a7%3A0x6c62c1e36ae8cce8!2sShoptaycam%20-%20Tay%20C%E1%BA%A7m%20Ch%C6%A1i%20Game!5e0!3m2!1svi!2s!4v1651364916140!5m2!1svi!2s" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.0877564889643!2d105.86416691476259!3d20.989119086019862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad48e597a1a7%3A0x6c62c1e36ae8cce8!2sShoptaycam%20-%20Tay%20C%E1%BA%A7m%20Ch%C6%A1i%20Game!5e0!3m2!1svi!2s!4v1651364916140!5m2!1svi!2s" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0977424798284!2d105.85017601473147!3d21.028774735998386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab953357c995%3A0x1babf6bb4f9a20e!2zSOG7kyBIb8OgbiBLaeG6v20!5e0!3m2!1svi!2s!4v1655450780126!5m2!1svi!2s" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 	</div>
 </div>
-
 </section>

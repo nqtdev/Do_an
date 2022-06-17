@@ -214,7 +214,7 @@ class Giohang extends CI_Controller {
             $this->Mcustomer->customer_update($datax,$idx);
             $this->session->unset_userdata('id-info-customer','money_check_coupon');
         }   
-        $this->data['title']='DecorViet.vn - Kết quả đơn hàng';
+        $this->data['title']='contact.decorviet.vn - Kết quả đơn hàng';
         $this->data['view']='thankyou';
         $this->load->view('frontend/layout',$this->data);
     }

@@ -15,7 +15,7 @@
                 echo "ShopGiuongDa";
         ?>
     </title>
-    <link rel="icon" type="image/x-icon" href="public/images/logo-png.png">
+    <link rel="icon" type="image/x-icon" href="public/images/logo-png.svg">
     <link href="public/css/bootstrap.css" rel="stylesheet">
     <link href="public/css/font-awesome.css" rel="stylesheet">
     <link href="public/css/lte.css" rel="stylesheet">

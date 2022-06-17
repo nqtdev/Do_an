@@ -3,7 +3,7 @@
         <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <ul class="list-unstyled social pull-right">
-                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.facebook.com/Tieens582/"><i class="fab fa-facebook-f"></i></a></li>
                   <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                   <li><a href="#"><i class="fab fa-youtube"></i></a></li>
@@ -16,11 +16,11 @@
         <div class="col-xs-12 col-sm-12 col-md-6">
             <div class="col-xs-12 col-sm-6">
                 <a href="trang-chu">
-                    <img src="public/images/logo-png.png" style="width: 38%;" class="img-fix f-logo" alt="smart-construction">
+                    <img src="public\images\logo-png.svg" style="width: 50%;" class="img-fix f-logo" alt="smart-construction">
                 </a>
-                <div class="about-store">
-                 Shop Decor Viet
-             </div>
+                <!-- <div class="about-store" >
+                 DecorViet
+                </div> -->
          </div>
          <div class="col-xs-12 col-sm-6">
             <div class="f-contact">
@@ -36,7 +36,7 @@
                     </li>
                     <li class="clearfix">
                         <i class="fa fa-envelope"></i>
-                        <span><a href="#">decor.vn</a></span>
+                        <span><a href="#">contact.decorviet.vn</a></span>
                     </li>
                 </ul>
             </div>

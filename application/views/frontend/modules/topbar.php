@@ -1,5 +1,5 @@
 
-<section id="header"">
+<section id="header">
 	<nav class="navbar" style="z-index: 9999">
 		<div class="container">
 			<div class="col-md-12 col-lg-12">

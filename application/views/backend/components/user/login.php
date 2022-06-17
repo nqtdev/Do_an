@@ -51,7 +51,7 @@
         </div>
         <nav class="navbar navbar-fixed-bottom" role="navigation">
             <div class="container">
-               <h5 class="text-center">Copyright © 2022 <a href="#" style="color:red">decor.vn</a>. All rights reserved.</h5>
+               <h5 class="text-center">Copyright © 2022 <a href="#" style="color:red">contact.decorviet.vn</a>. All rights reserved.</h5>
             </div>
         </nav>
         <!-- jQuery -->

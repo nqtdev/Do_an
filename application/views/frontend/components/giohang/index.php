@@ -97,9 +97,20 @@
 										</tr>
 										 
 										<tr>
-
 											<td colspan="2">
 												<button type="button" onclick="window.location.href='info-order'" class="btn-next-checkout">Đặt hàng</button>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded" action="application\views\frontend\components\giohang\momo.php">
+													<input type="submit" name="momo" value="Thanh toán MoMo QRcode" class="btn-next-checkout" >
+												</form>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<div  id="paypal-button" ></div>
 											</td>
 										</tr>
 									</tbody>
@@ -118,7 +129,6 @@
 					<br>	
 					<button class="btn" onclick="window.location.href='san-pham'"> Tiếp tục mua hàng</button>
 				</div>
-
 			<?php endif;?>
 		</div>
 	</div>
@@ -150,3 +160,39 @@
 			});
 		}
 	</script>
+
+
+<!--Scripts Paypal Method-->
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+  paypal.Button.render({
+    env: 'sandbox',
+    client: {
+      sandbox: 'AalObH-RXrjKFhvlRFgU4s3JzrRgDwVEWhhcxHswGyBfdgMyvGD2wSQFTe_F1XSLhpnFwY9ZrkyDM4Us',
+      production: 'demo_production_client_id'
+    },
+
+    locale: 'en_US',
+    style: {
+      size: 'large',
+      color: 'gold',
+      shape: 'pill',
+    },
+    commit: true,
+    payment: function(data, actions) {
+      return actions.payment.create({
+        transactions: [{
+          amount: {
+            total: '750',
+            currency: 'USD'
+          }
+        }]
+      });
+    },
+    onAuthorize: function(data, actions) {
+      return actions.payment.execute().then(function() {
+        window.alert('Cảm ơn bạn đã đặt hàng!');
+      });
+    }
+  }, '#paypal-button');
+</script>
